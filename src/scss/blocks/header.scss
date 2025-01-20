@@ -1,0 +1,69 @@
+
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 375px;
+    height: 650px;
+    padding: 40px 24px;
+    background-image: url(../assets/images/mobile/image-hero.jpg);
+    /* margin: 0 0 96px 0; */
+    margin-bottom: 96px;
+}
+.header__img{
+    position: absolute;
+    
+   
+}
+
+.header__box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 40px;
+   
+}
+.header__logo{
+    width: 144px;
+    height: 24px;
+}
+.header__text{
+    width: 327px;
+    height: 196px;
+    border: 2px solid #ffffff;
+    color: white;
+}
+.header__titulo{
+    line-height: 38px;
+    padding: 26px 24px 24px 24px;
+    font-family: "Josefin Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 40;
+    font-style: normal;
+    color: #ffffff;
+
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 375px;
+    height: 650px;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+.menu{
+    width: 129px;
+    height: 221px;
+}
+.menu__boton{
+    color: #fff;
+    line-height: 25px;
+    padding-top: 24px;
+
+}
