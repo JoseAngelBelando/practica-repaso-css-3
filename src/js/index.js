@@ -8,7 +8,7 @@ const toggleMenu = () => {
   //Preguntar si tiene la clase
   if (menuElement.classList.contains('menu-show')) {
     //Si la tiene, se la quitamos y ponemos icono de hamburguesa
-    menuElement.classList.remove(menu - show);
+    menuElement.classList.remove('menu-show');
     menuIconElement.src = './assets/images/icon-hamburger.svg';
   } else {
     //Si no la tiene, se la ponemos y ponemos ucono de cerrar
