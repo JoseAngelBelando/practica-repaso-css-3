@@ -32,7 +32,7 @@
 }
 .creation {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: center;
     gap: 24px;
     padding: 0 24px;
@@ -51,9 +51,22 @@
             left: 20px;
             font-family: "Josefin Sans", serif;
             font-size: 18px;
-            font-weight: 24;
+            font-weight: 300;
+            line-height: 24px;
             color: #ffffff;
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
             max-width: 35%; /* Limita el ancho del texto */
+        }
+        &__see{
+            text-align: center;
+            margin-bottom: 96px;
+        }
+        &__boton{
+            border: 1px solid #000000;
+            padding:10px 20px ;
+            width: 157px;
+            height: 40px;
+            font-family: "alata";
+            font-size: 14px;   
         }
     }

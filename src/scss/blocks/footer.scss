@@ -1,0 +1,44 @@
+.footer{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    gap: 16px;
+    padding-top: 56px ;
+    width: 375px;
+    &__image{
+        width: 144px;
+        height: 24px;
+        margin-bottom: 32px;
+    }
+    &__img{
+        
+    }
+    &__menu{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    &__boton{
+        color: white;
+        font-family: "alata";
+        line-height: 25px;
+    }
+    &__box{
+        display: flex;
+        align-items: center;
+        
+    }
+    &__icon{
+        padding-inline: 8px;
+    }
+    &__text{
+        color:#808080;
+        font-family: "alata";
+        font-size: 15px;
+        font-weight: 400;
+        opacity: 50%;
+        margin-bottom: 56px;
+    }
+}

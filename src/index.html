@@ -7,6 +7,8 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
 <link href="https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./scss/styles.scss">
     <title>Document</title>
@@ -85,29 +87,34 @@
             </div>
             <div class="creation__box">
                 <img class="creation__img" src="./assets/images/mobile/image-fisheye.jpg" alt="">
-                <h2 class="creation__text" >MAKE IT fisheye</h2>
+                <h2 class="creation__text" >MAKE IT FISHEYE</h2>
             </div>
-            <a href="#">SEE ALL</a>
+            <div class="creation__see">
+                <a class="creation__boton" href="#">SEE ALL</a>
+            </div>
+            
         </section>
     
     </main>
-    <footer>
-        <div>
-            <img src="./assets/images/logo.svg" alt="logo">
+    <footer class="footer">
+        <div class="footer__image">
+            <img class="footer_img" src="./assets/images/logo.svg" alt="logo">
+        </div>
+        <div class="footer__menu">
+            <a class="footer__boton" href="">About</a>
+            <a class="footer__boton" href="">Careers</a>
+            <a class="footer__boton" href="">Events</a>
+            <a class="footer__boton" href="">Products</a>
+            <a class="footer__boton" href="">Support</a>
+        </div>
+        <div class="footer__box">
+            <a href="#"><img class="footer__icon" src="./assets/images/icon-facebook.svg" alt=""></a>
+            <a href="#"><img class="footer__icon"  src="./assets/images/icon-twitter.svg" alt=""></a>
+            <a href="#"><img class="footer__icon"  src="./assets/images/icon-pinterest.svg" alt=""></a>
+            <a href="#"><img class="footer__icon"  src="./assets/images/icon-instagram.svg" alt=""></a>
         </div>
         <div>
-            <a href="">About</a>
-            <a href="">Careers</a>
-            <a href="">Events</a>
-            <a href="">Products</a>
-            <a href="">Support</a>
-        </div>
-        <div>
-            <a href="#"><img src="./assets/images/icon-facebook.svg" alt=""></a>
-            <a href="#"><img src="./assets/images/icon-twitter.svg" alt=""></a>
-            <a href="#"><img src="./assets/images/icon-pinterest.svg" alt=""></a>
-            <a href="#"><img src="./assets/images/icon-instagram.svg" alt=""></a>
-            <h3>2021 Loopstudios. All rights reserved</h3>
+            <h3 class="footer__text">2021 Loopstudios. All rights reserved</h3>
         </div>
     </footer>
     <script type="module" src="./js/index.js"></script>
